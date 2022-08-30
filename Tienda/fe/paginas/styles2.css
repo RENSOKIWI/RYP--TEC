@@ -1,0 +1,199 @@
+
+ body {
+    margin: 0px;
+    background-color:#ddfad0;
+    font-family: 'Nerko One', cursive;
+ }
+ 
+ button {
+    font-size: 16px;
+    text-align: center;
+    border-radius: 8px;
+    padding: 10px 20px;
+ }
+ 
+ .page-nav {
+    background-color: #9dd2dc;
+    border: 1px solid black;
+    position: relative;
+ }
+ 
+ .page-nav h1 {
+    margin: 20px;
+ }
+  .page-nav img {
+    margin: 8px;
+    width: 200px;
+    position: relative;
+    orientation: right;
+ }
+.button-link1{
+    background-color:#cff4c0;
+    color: black;
+    border: 2px solid #ccf2af; 
+    transition-duration: 0.4s;
+    position: absolute;
+ 
+    bottom: 10px;}
+    .button-link2 {
+        background-color:#cff4c0;
+        color: black;
+        border: 2px solid #ccf2af; 
+        transition-duration: 0.4s;
+        position: absolute;
+       
+        bottom: 10px;}
+        .button-link3 {
+            background-color:#cff4c0;
+            color: black;
+            border: 2px solid #ccf2af; 
+            transition-duration: 0.4s;
+            position: absolute;
+            direction: 15px;
+            bottom: 10px;
+           
+        }
+        .button-link4 {
+         background-color:#cff4c0;
+         color: black;
+         border: 2px solid #ccf2af; 
+         transition-duration: 0.4s;
+         position: absolute;
+         direction: 15px;
+         bottom: 10px;
+        
+     }
+     .button-link5 {
+      background-color:#cff4c0;
+      color: black;
+      border: 2px solid #ccf2af; 
+      transition-duration: 0.4s;
+      position: absolute;
+      direction: 15px;
+      bottom: 10px;
+     
+  }
+  .button-link6{
+   background-color:#cff4c0;
+   color: black;
+   border: 2px solid #ccf2af; 
+   transition-duration: 0.4s;
+   position: absolute;
+   direction: 15px;
+   bottom: 10px;
+  
+}
+
+
+        .product-container1{
+            margin: 15px;
+            padding: 2px 16px;
+            position: relative;
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+            background-color: #f85560;
+         }
+         .product-container2{
+            margin: 15px;
+            padding: 2px 16px;
+            position: relative;
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+            background-color: #8cc0ef;
+         }
+         .product-container3{
+            margin: 15px;
+            padding: 2px 16px;
+            position: relative;
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+            background-color: #f8da80;
+         }
+         .product-container4{
+            margin: 15px;
+            padding: 2px 16px;
+            position: relative;
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+            background-color:#d28dd9;
+         }
+         .product-container5{
+            margin: 15px;
+            padding: 2px 16px;
+            position: relative;
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+            background-color: #fab269;
+         }
+         .product-container6{
+            margin: 15px;
+            padding: 2px 16px;
+            position: relative;
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+            background-color: #bd9e7f;
+         }
+         
+         .product-container1:hover,.product-container2:hover,.product-container3:hover,.product-container4:hover,.product-container5:hover, .product-container6:hover{
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+          }
+         
+         .product-container1 img,.product-container2 img , .product-container3 img, .product-container4 img, .product-container5 img, .product-container6 img{
+            width: 280px;
+        }
+
+        .button-link1:hover{
+            background-color: #f4cccc; 
+            color:black;
+            border:2px solid rgb(237, 94, 94)
+         }
+         .button-link2:hover{
+            background-color: #b2cde5; 
+            color:black;
+            border:2px solid  #6fa8dc;
+        } 
+         .button-link3:hover {
+            background-color: #fff2cc; 
+            color:black;
+            border:2px solid #ffe599 
+         }
+         .button-link4:hover{
+            background-color: #efbbf4; 
+            color:black;
+            border:2px solid #d861e2; 
+         }
+         .button-link5:hover {
+            background-color:#f2c79b; 
+            color:black;
+            border:2px solid #f89b3c;
+         }
+         .button-link6:hover {
+            background-color:#cfb8a1; 
+            color:black;
+            border:2px solid #b79573;
+         }
+         
+         .Menu{ 
+            list-style: none;
+            padding:  0;
+           border: 2px solid #6fa8dc;
+            width: 100%;
+            max-width: 1000px;
+            margin: auto;
+            
+            }
+            .page-content {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-evenly;
+             }
+            .Menu li a { 
+            text-decoration: none;
+            color:black;
+            text-decoration-style: brown;
+            padding: 20px;
+            text-orientation: center;
+            display: block;
+            
+            }
+            .Menu li { 
+            display: inline-block;
+            text-align: auto;
+            }
+            .Menu li a:hover { 
+            background: #9acfff;}
+         

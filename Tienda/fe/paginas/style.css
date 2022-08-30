@@ -1,0 +1,323 @@
+body {
+    margin: 0px;
+    background-color: #3ce9d2;
+    font-family: 'Nerko One', cursive;
+ }
+ 
+ button {
+    font-size: 16px;
+    text-align: center;
+    border-radius: 8px;
+    padding: 10px 20px;
+ }
+ 
+ .page-nav {
+    background-color: #a4bdff;
+    border: 1px solid black;
+    position: relative;
+ }
+ 
+ .page-nav h1 {
+    margin: 20px;
+ }
+  .page-nav img {
+    margin: 8px;
+    width: 200px;
+    position: relative;
+    orientation: right;
+ }
+ 
+ .button-checkout {
+    background-color: white;
+    color: black;
+    border: 2px solid #008CBA; 
+    transition-duration: 0.4s;
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+ }
+ 
+ .button-checkout:hover {
+    background-color: #008CBA; 
+    color: white;
+ }
+ 
+ .page-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+ }
+ 
+ .product-container1 {
+   margin: 15px;
+   padding: 2px 16px;
+   position: relative;
+   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+   background-color: #f85560;
+}
+ 
+ 
+ .product-container1:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+ 
+ .product-container1 img {
+    width: 250px;
+ }
+ 
+ .product-container1 h1 {
+    margin-bottom: 10px;
+    margin-left: 15px;
+ }
+ 
+ .button-add1 {
+    background-color:#cff4c0;
+    color: black;
+    border: 2px solid #ccf2af; 
+    transition-duration: 0.4s;
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+    
+ }
+  
+ .button-add1:hover {
+   background-color: #f4cccc; 
+   color:black;
+   border:2px solid rgb(237, 94, 94)
+ }
+ .product-container2 {
+   margin: 15px;
+   padding: 2px 16px;
+   position: relative;
+   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+   background-color: #8cc0ef;
+}
+
+.product-container2:hover {
+   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+ }
+
+.product-container2 img {
+   width: 250px;
+}
+
+.product-container2 h1 {
+   margin-bottom: 10px;
+   margin-left: 15px;
+}
+
+.button-add2 {
+   background-color:#cff4c0;
+   color: black;
+   border: 2px solid #ccf2af; 
+   transition-duration: 0.4s;
+   position: absolute;
+   right: 15px;
+   bottom: 10px;
+   
+}
+ 
+.button-add2:hover {
+   background-color: #b2cde5; 
+            color:black;
+            border:2px solid  #6fa8dc;
+}
+.product-container3 {
+   margin: 15px;
+            padding: 2px 16px;
+            position: relative;
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+            background-color: #f8da80;
+}
+
+.product-container3:hover {
+   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+ }
+
+.product-container3 img {
+   width: 250px;
+}
+
+.product-container3 h1 {
+   margin-bottom: 10px;
+   margin-left: 15px;
+}
+
+.button-add3 {
+   background-color:#cff4c0;
+   color: black;
+   border: 2px solid #ccf2af; 
+   transition-duration: 0.4s;
+   position: absolute;
+   right: 15px;
+   bottom: 10px;
+   
+}
+ 
+.button-add3:hover {
+   background-color: #fff2cc; 
+            color:black;
+            border:2px solid #ffe599 
+}
+.product-container4 {
+   margin: 15px;
+            padding: 2px 16px;
+            position: relative;
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+            background-color:#d28dd9
+}
+
+.product-container4:hover {
+   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+ }
+
+.product-container4 img {
+   width: 250px;
+}
+
+.product-container4 h1 {
+   margin-bottom: 10px;
+   margin-left: 15px;
+}
+
+.button-add4 {
+   background-color:#cff4c0;
+   color: black;
+   border: 2px solid #ccf2af; 
+   transition-duration: 0.4s;
+   position: absolute;
+   right: 15px;
+   bottom: 10px;
+   
+}
+ 
+.button-add4:hover {
+   background-color: #efbbf4; 
+            color:black;
+            border:2px solid #d861e2; 
+}
+.product-container5 {
+   margin: 15px;
+            padding: 2px 16px;
+            position: relative;
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+            background-color: #fab269;
+}
+
+.product-container5:hover {
+   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+ }
+
+.product-container5 img {
+   width: 250px;
+}
+
+.product-container5 h1 {
+   margin-bottom: 10px;
+   margin-left: 15px;
+}
+
+.button-add5 {
+   background-color:#cff4c0;
+   color: black;
+   border: 2px solid #ccf2af; 
+   transition-duration: 0.4s;
+   position: absolute;
+   right: 15px;
+   bottom: 10px;
+   
+}
+ 
+.button-add5:hover {
+   background-color:#f2c79b; 
+            color:black;
+            border:2px solid #f89b3c;
+}
+.product-container6 {
+   margin: 15px;
+            padding: 2px 16px;
+            position: relative;
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+            background-color: #bd9e7f;
+}
+
+.product-container6:hover {
+   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+ }
+
+.product-container6 img {
+   width: 250px;
+   orientation: center;
+
+}
+
+.product-container6 h1 {
+   margin-bottom: 10px;
+   margin-left: 15px;
+}
+
+.button-add6 {
+   background-color:#cff4c0;
+   color: black;
+   border: 2px solid #ccf2af; 
+   transition-duration: 0.4s;
+   position: absolute;
+   right: 15px;
+   bottom: 10px;
+   
+}
+ 
+.button-add6:hover {
+   background-color:#cfb8a1; 
+   color:black;
+   border:2px solid #b79573;
+}
+.product-container1:hover,.product-container2:hover,.product-container3:hover,.product-container4:hover,.product-container5:hover, .product-container6:hover{
+   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+ }
+ 
+   
+
+ .Menu{ 
+    list-style: none;
+    padding:  0;
+   border: 2px solid #6fa8dc;
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    
+    }
+    .page-content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+     }
+    .Menu li a { 
+    text-decoration: none;
+    color:black;
+    text-decoration-style: brown;
+    padding: 20px;
+    text-orientation: center;
+    display: block;
+    
+    }
+    .Menu li { 
+    display: inline-block;
+    text-align: auto;
+    }
+    .Menu li a:hover { 
+    background: #9acfff;}
+    .lista{
+      background-color:#7dc0ff ;
+      padding: 0%;
+      font-size: 12px;
+      position: absolute;
+      width: 250px;
+       orientation: center;
+       text-align: left;
+    }
+ 
+ 
+    
+    
